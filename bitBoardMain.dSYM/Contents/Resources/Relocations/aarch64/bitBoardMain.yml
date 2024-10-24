@@ -1,0 +1,15 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/collintucker/Workspace/comporg/bitBoardChess/bitBoardMain'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _checkIfPieceExists, symObjAddr: 0x0, symBinAddr: 0x10000314C, symSize: 0x48 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _checkIfPieceExists, symObjAddr: 0x0, symBinAddr: 0x10000314C, symSize: 0x48 }
+  - { offsetInCU: 0x77, offset: 0x77, size: 0x8, addend: 0x0, symName: _checkifValidMoveRed, symObjAddr: 0x48, symBinAddr: 0x100003194, symSize: 0x1A0 }
+  - { offsetInCU: 0xC9, offset: 0xC9, size: 0x8, addend: 0x0, symName: _checkifValidMoveBlack, symObjAddr: 0x1E8, symBinAddr: 0x100003334, symSize: 0x1A0 }
+  - { offsetInCU: 0x11B, offset: 0x11B, size: 0x8, addend: 0x0, symName: _initializeBoards, symObjAddr: 0x388, symBinAddr: 0x1000034D4, symSize: 0x228 }
+  - { offsetInCU: 0x22D, offset: 0x22D, size: 0x8, addend: 0x0, symName: _printBoard, symObjAddr: 0x5B0, symBinAddr: 0x1000036FC, symSize: 0x118 }
+  - { offsetInCU: 0x2A5, offset: 0x2A5, size: 0x8, addend: 0x0, symName: _convertMoveToBitBoard, symObjAddr: 0x6C8, symBinAddr: 0x100003814, symSize: 0x11C }
+  - { offsetInCU: 0x2E9, offset: 0x2E9, size: 0x8, addend: 0x0, symName: _movePieceRed, symObjAddr: 0x7E4, symBinAddr: 0x100003930, symSize: 0x228 }
+  - { offsetInCU: 0x399, offset: 0x399, size: 0x8, addend: 0x0, symName: _movePieceBlack, symObjAddr: 0xA0C, symBinAddr: 0x100003B58, symSize: 0x228 }
+  - { offsetInCU: 0x449, offset: 0x449, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xC34, symBinAddr: 0x100003D80, symSize: 0x110 }
+...
